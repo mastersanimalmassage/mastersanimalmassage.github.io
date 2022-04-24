@@ -1,0 +1,241 @@
+body {
+    background-color: #000;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    overflow-x: clip;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+    object-fit: cover;
+}
+
+.nav-button {
+    align-self: right;
+    text-align: center;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+}
+
+.inquire {
+    width: 110px;
+    height: 50px;
+
+    line-height: 50px;
+
+    font-weight: bold;
+
+    border-radius: 3px;
+
+    background-color: #215c2a;
+}
+
+.inquire:hover {
+    cursor: pointer;
+}
+
+.section-header {
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 40px;
+}
+
+.section-body {
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 18px;
+}
+
+.section-img {
+    width: 40%;
+
+    border-radius: 3px;
+}
+
+.item-container {
+    position: relative;
+    width: 100%;
+    top: 50px;
+    left: 0px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    overflow: clip;
+}
+
+.split {
+    width: 45%;
+    text-align: center;
+}
+
+.card {
+    width: 25%;
+
+    border-radius: 15px;
+
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    color: white;
+    background-color: #215c2a;
+
+    filter: drop-shadow(0px 0px 10px #444);
+}
+
+.card-title {
+    margin: 10px;
+    font-size: 36px;
+}
+
+.card-body {
+    font-size: 28px;
+}
+
+#navbar {
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #010101;
+    color: white;
+}
+
+#navbar-buttons {
+    position: relative;
+    width: 300px;
+    height: 100%;
+
+    margin: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: 20px;
+}
+
+#title {
+    position: relative;
+
+    margin: 30px;
+
+    font-size: 28px;
+}
+
+#header-container {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    left: 0px;
+
+    overflow: clip;
+}
+
+#landing-text {
+    position: absolute;
+    width: 500px;
+    top: 250px;
+    left: 100px;
+
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+#header-img {
+    position: relative;
+    height: 800px;
+    left: 30%;
+}
+
+#tag-container {
+    position: relative;
+    width: 100%;
+    left: 0px;
+
+    overflow: clip;
+
+    background-color: white;
+    color: #000;
+}
+
+#desc-container {
+    position: relative;
+    width: 100%;
+    left: 0px;
+
+    overflow: clip;
+
+    background-color: #215c2a;
+    color: white;
+}
+
+#desc-img-container {
+    position: relative;
+    height: 350px;
+}
+
+#desc-text-container {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#book-container {
+    position: relative;
+    width: 100%;
+    left: 0px;
+
+    background-color: white;
+    color: #000;
+}
+
+#book-card-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+#book-text-container {
+    position: relative;
+    height: 30px;
+    width: 100%;
+}
+
+#book-button {
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-size: 20px;
+
+    color: white;
+}
+
+#footer {}
