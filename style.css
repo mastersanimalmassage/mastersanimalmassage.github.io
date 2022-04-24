@@ -172,6 +172,7 @@ img {
 #header-img {
     position: relative;
     height: 800px;
+    width: 70%;
     left: 30%;
 }
 
