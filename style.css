@@ -250,4 +250,14 @@ a {
     color: white;
 }
 
-#footer {}
+#footer {
+    position: relative;
+    width: 100%;
+
+    padding: 10px;
+
+    font-size: 14px;
+
+    color: black;
+    background-color: white;
+}
