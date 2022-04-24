@@ -1,5 +1,10 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #000;
+    width: 100%;
 
     display: flex;
     justify-content: center;
@@ -14,6 +19,10 @@ body {
 
 img {
     object-fit: cover;
+}
+
+a {
+    text-decoration: none;
 }
 
 .nav-button {
