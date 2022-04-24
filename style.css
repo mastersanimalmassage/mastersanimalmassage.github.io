@@ -1,7 +1,6 @@
-html {
-    position: relative;
+html,
+body {
     overflow-x: hidden;
-    width: 100%;
 }
 
 body {
@@ -12,8 +11,6 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
-    overflow-x: clip;
 
     text-align: center;
 
@@ -89,7 +86,7 @@ a {
     display: flex;
     justify-content: space-evenly;
 
-    overflow: clip;
+    overflow: hidden;
 }
 
 .split {
@@ -167,7 +164,7 @@ a {
     width: 100%;
     left: 0px;
 
-    overflow: clip;
+    overflow: hidden;
 }
 
 #landing-text {
@@ -193,7 +190,7 @@ a {
     width: 100%;
     left: 0px;
 
-    overflow: clip;
+    overflow: hidden;
 
     background-color: white;
     color: #000;
@@ -204,7 +201,7 @@ a {
     width: 100%;
     left: 0px;
 
-    overflow: clip;
+    overflow: hidden;
 
     background-color: #215c2a;
     color: white;
